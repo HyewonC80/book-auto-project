@@ -1,0 +1,35 @@
+https://www.wendybook.com/search/result?term={책제목}
+
+으로 나오는 페이지에서 //*[@id="ContentsAreaWrap"]/div/div[3]/ul/li/div/div[3]/div[2]/a 클릭하면
+
+주제 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[13]/div[3]/div[2]/div[1]/a
+시리즈 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[3]/div/a/span[1]
+저자 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[4]/div[2]/div[1]/a
+출판사 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[11]/div[5]/div[2]/a
+AR //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[13]/div[5]/div[2]/div/a
+Lexile (L) //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[5]/div/div/a
+형태 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[11]/div[4]/div[2]
+비고 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[13]/div[2]/div[2]/div[1]/a, //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[13]/div[2]/div[2]/div[2]/a
+ISBN //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[11]/div[2]/div[2]
+
+요렇게 xpath했는데 값이 없으면 아래 path를 쓰자
+주제 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[3]/div/span
+시리즈 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[3]/div/span
+저자 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[4]/div[2]/div/a
+출판사 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[10]/div[5]/div[2]/a
+AR //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[5]/div[2]/div/a
+Lexile (L) //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[6]/div[2]/div/a
+형태 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[10]/div[4]/div[2]
+비고 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[13]/div[2]/div[2]/div[1]/a, //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[13]/div[2]/div[2]/div[2]/a
+ISBN //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[11]/div[2]/div[2]
+
+위에꺼도 안되면 아래 path를 사용하자. 혹시 중복이 되는거 있으면 바꿔줘
+주제 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[3]/div[2]/div[1]/a
+시리즈 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[3]/div/span 
+저자 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[4]/div[2]/div[1]/a
+출판사 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[10]/div[5]/div[2]/a
+AR //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[5]/div[2]/div/a
+Lexile (L) //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[6]/div[2]/div/a
+형태 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[10]/div[4]/div[2]
+비고 //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[2]/div[2]/div[1]/a, //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[12]/div[2]/div[2]/div[2]/a
+ISBN //*[@id="container"]/div[2]/div[1]/div[2]/div[2]/div[10]/div[2]/div[2]
